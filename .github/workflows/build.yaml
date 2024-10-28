@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: deckhouse/modules-actions/setup@main
+      - uses: haosb/echoserver/setup@main
         with:
           registry: ghcr.io
           registry_login: ${{ github.actor }}
