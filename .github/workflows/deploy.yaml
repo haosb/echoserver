@@ -41,3 +41,5 @@ jobs:
           module_name: ${{ steps.repo_name.outputs.REPO_NAME }}
           module_tag: ${{ github.event.inputs.tag }}
           release_channel: ${{ github.event.inputs.release_channel }}
+
+          
